@@ -1,17 +1,19 @@
 # Project Title
 
 ## Introduction
-This project implements **[brief description of the project]**. The purpose of this project is to **[state objective or problem being solved]**.
+This is assignment 1 of the course Visual Recognition.
 
 ## Prerequisites
 Ensure you have the following installed before running the code:
-- **Python 3.x**
-- **Required dependencies** (see `requirements.txt`)
+- **Python 3.10**
+- **NumPy**
+- **OpenCV(cv2)**
+- **Matplotlib**
 
 ## Installation
 1. **Clone this repository**:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your/your-repo.git
    cd your-repo
    ```
 2. **Install dependencies**:
