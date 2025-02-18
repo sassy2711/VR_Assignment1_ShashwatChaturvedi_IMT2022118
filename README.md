@@ -13,20 +13,13 @@ Ensure you have the following installed before running the code:
 ## Installation
 1. **Clone this repository**:
    ```sh
-   git clone https://github.com/your/your-repo.git
-   cd your-repo
+   git clone https://github.com/sassy2711/VR_Assignment1_ShashwatChaturvedi_IMT2022118.git
+   cd VR_Assignment1_ShashwatChaturvedi_IMT2022118.git
    ```
-2. **Install dependencies**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 ## How to Run
-Run the main script using:
-```sh
-python main.py
-```
-or, if using Jupyter Notebook, open and execute `notebook.ipynb`.
+Go to the scripts folder
+Coins segmentation script - execute the cells in coins.ipynb.
+Panorama stiching script - execute the cells in panorama.ipynb
 
 ## Methods Chosen
 This project utilizes:
