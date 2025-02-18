@@ -45,12 +45,12 @@ Panorama stiching script - execute the cells in panorama.ipynb
 ![coin3](output_images/coins/coin_3.png)
 ![coin4](output_images/coins/coin_4.png)
 ![coin5](output_images/coins/coin_5.png)
-![detected_edges](output_images/coins/detcted_edges.jpeg)
+![detected_edges](output_images/coins/detected_edges.jpeg)
 ![edges_overlayed_on_coins](output_images/coins/edges_overlayed_on_coins.jpeg)
 ![total_coins](output_images/coins/total_coins.jpeg)
 
 ### Panorama Stiching:-
-![stiched_panorama](output_images/panorama/stiched_panorama.jpeg)
+![stiched_panorama](output_images/panorama/stitched_panorama.jpeg)
 
 ## Observations
 - **[1]**: A few of the inscribings in the coins were also detected as edges.
