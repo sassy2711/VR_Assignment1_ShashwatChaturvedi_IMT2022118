@@ -50,7 +50,7 @@ Panorama stiching script - execute the cells in panorama.ipynb
 ![total_coins](output_images/coins/total_coins.jpeg)
 
 ### Panorama Stiching:-
-![stiched_panorama](output_images/panorama/stitched_panorama.jpeg)
+![stitched_panorama](output_images/panorama/stitched_panorama.jpeg)
 
 ## Observations
 - **[1]**: A few of the inscribings in the coins were also detected as edges.
