@@ -22,21 +22,39 @@ Coins segmentation script - execute the cells in coins.ipynb.
 Panorama stiching script - execute the cells in panorama.ipynb
 
 ## Methods Chosen
-This project utilizes:
-- **[Method 1]**: _Explanation of why this method was used._
-- **[Method 2]**: _Another method and its purpose._
+
+### Coin Detection:-
+- **GaussianBlur**: For noise reduction.
+- **Canny**: For edge detection.
+- **morphologyEx**: For closing small gaps in edges.
+- **findContours**: For finding contours from improved edges.
+- **Segmentation**: For extracting coins from the image.
+
+### Panorama Stiching:-
+- **ORB (Oriented FAST and Rotated BRIEF)**: For detecting key points and computing descriptors.
+- **BFMatcher**: For matching ORB descriptors between consecutive images using Brute-Force Matching with Hamming distance.
+- **findHomography**: Computes homography matrix using RANSAC.
+- **warpHomography**: Warps images using homography.
+- **threshold**: Creates a binary mask to remove black areas.
 
 ## Results
-The results obtained include:
-- **Key observations** from running the code.
-- **Performance metrics**, accuracy, or relevant outputs.
+
+### Coin detection:-
+![coin1](output_images/coins/coin_1.png)
+![coin2](output_images/coins/coin_2.png)
+![coin3](output_images/coins/coin_3.png)
+![coin4](output_images/coins/coin_4.png)
+![coin5](output_images/coins/coin_5.png)
+![detected_edges](output_images/coins/detcted_edges.jpeg)
+![edges_overlayed_on_coins](output_images/coins/edges_overlayed_on_coins.jpeg)
+![total_coins](output_images/coins/total_coins.jpeg)
+
+### Panorama Stiching:-
+![stiched_panorama](output_images/panorama/stiched_panorama.jpeg)
 
 ## Observations
-- **[Observation 1]**: _Describe a key insight._
-- **[Observation 2]**: _Another takeaway from the results._
-
-## Contributing
-Contributions are welcome! Please submit a **pull request** or open an **issue**.
+- **[1]**: A few of the inscribings in the coins were also detected as edges.
+- **[2]**: A slight seam is visible in the stitched panorama. It may be due to misalignment, exposure differences, poor blending, or lens artifacts like vignetting.
 
 ## License
 This project is licensed under the **[MIT License](LICENSE)**.
