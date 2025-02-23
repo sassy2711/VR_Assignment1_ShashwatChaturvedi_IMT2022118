@@ -3,6 +3,9 @@
 ## Introduction
 This is assignment 1 of the course Visual Recognition.
 
+#### Github Link:-
+https://github.com/sassy2711/VR_Assignment1_ShashwatChaturvedi_IMT2022118.git
+
 ## Prerequisites
 Ensure you have the following installed before running the code:
 - **Python 3.10**
